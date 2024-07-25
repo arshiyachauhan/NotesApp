@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    width: 100%;
+    aspect-ratio: 5/4;
+    padding: 15px;
+    background-color: rgb(251, 235, 149, 0.4);
+    grid-template-rows: auto 25px;
+    border-radius: 10px;
+
+    .content{
+
+      p{
+            font-size:var(--fs-md);
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-weight: var(--fw-normal);
+            line-height: 25px;
+            color:#3c3d43;
+        }
+        button{
+            background-color: transparent;
+            color: var(--grey);
+            text-transform: capitalize;
+            cursor:pointer;
+        }
+
+        .textarea{
+            height: 200px;
+            background-color: transparent;
+
+        }
+    }
+        .footer{
+            font-size: var(--fs-sm);
+            color: var(--grey);
+    }
+}
+
