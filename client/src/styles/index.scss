@@ -1,0 +1,5 @@
+//we cannot utilize selectors in case of css and as classname/id is uded the size of code is large
+//Thus scss can help solve these 
+@use "./default.scss";
+@use "./reset.scss";
+@use "./theme.scss";
