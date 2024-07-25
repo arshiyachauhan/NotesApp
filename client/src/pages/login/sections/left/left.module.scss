@@ -1,0 +1,26 @@
+.left{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        height:300px;
+        margin-bottom: 20px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        h1{
+            line-height: 45px;
+            font-size: var(--fs-xxxl);
+            font-weight: var(--fw-bold);
+        }
+        p{
+            font-size: var(--fs-lg);
+            color:var(--grey);
+        }
+    }
+}
