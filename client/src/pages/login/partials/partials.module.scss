@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 20px 0;
+
+    .option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1px;
+        border: 1px solid var(--grey);
+        margin-bottom: 40px;
+    }
+
+    span {
+        margin: 0 auto;
+        position: absolute;
+        background-color: white;
+        color: var(--grey);
+        padding: 0 10px;
+    }
+
+    .emailBtn {
+        background-color: var(--green);
+    }
+}
